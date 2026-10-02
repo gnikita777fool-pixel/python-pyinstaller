@@ -7,7 +7,7 @@ from hello.greeting import greet, sum_range
 
 def main() -> int:
     print(f"hello-python version {__version__}")
-    print("Hello from Python! 🐍📦")
+    print("Hello from Python CI/CD! 🐍📦")
     print(f"OS: {platform.system().lower()}")
     print(f"Arch: {platform.machine()}")
     print(greet("GitHub"))
