@@ -725,6 +725,9 @@ git push origin v0.1.0
 
 * `hello-python-windows-x64.exe`
 
+<img width="1686" height="690" alt="image" src="https://github.com/user-attachments/assets/2af08f4e-b434-49a9-ae32-9b355d2f3990" />
+
+
 ## Шаг 10. Скачивание и запуск бинарника
 
 Теперь проверим, что собранное приложение можно скачать и запустить.
@@ -893,6 +896,11 @@ Bash
 git tag v0.2.0
 git push origin v0.2.0
 ```
+
+<img width="1524" height="714" alt="image" src="https://github.com/user-attachments/assets/1a096e59-856b-4d89-90ee-47b690a76abf" />
+
+
+<img width="1649" height="365" alt="image" src="https://github.com/user-attachments/assets/8c791bcb-44f1-4cef-adba-ce74e166f221" />
 
 После этого GitHub Actions соберёт три новых бинарника и опубликует релиз `v0.2.0`.
 
