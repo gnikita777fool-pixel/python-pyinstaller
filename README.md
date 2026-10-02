@@ -411,6 +411,9 @@ jobs:
           generate_release_notes: true
 ```
 
+<img width="301" height="313" alt="image" src="https://github.com/user-attachments/assets/7c02befc-91df-473c-9c1c-48e70371b7bc" />
+
+
 Разберём, как работает этот файл:
 
 * `on` — определяет события, при которых запускается workflow. Проверки запускаются при отправке изменений в `main`, создании тега `v*` или Pull Request.
@@ -498,6 +501,9 @@ docker run --rm \
          ls -la dist/"
 ```
 
+<img width="1786" height="1157" alt="image" src="https://github.com/user-attachments/assets/95d780bc-5631-415f-85dd-3b16d1a8f1cf" />
+
+ 
 В PowerShell:
 
 PowerShell
@@ -533,6 +539,8 @@ Arch: x86_64
 Hello, GitHub!
 Sum 1..10 = 55
 ```
+
+<img width="1788" height="201" alt="image" src="https://github.com/user-attachments/assets/c93c1d59-8f84-433e-8697-09f4338ca488" />
 
 Обрати внимание: сборка через Docker здесь создаёт Linux-бинарник. Он не предназначен для запуска в Windows или macOS. Для этих платформ в дальнейшем будут использоваться отдельные GitHub runner'ы.
 
